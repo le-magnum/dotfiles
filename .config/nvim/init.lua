@@ -1,0 +1,5 @@
+require("le-magnum.packer")
+require("le-magnum.remap")
+require("le-magnum.set")
+print("hello Mangus")
+print("hope you are having a good day")
