@@ -1,0 +1,6 @@
+[user]
+    name = le-magnum
+    email = 32192192+le-magnum@users.noreply.github.com
+
+[alias]
+    graph = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short -10
