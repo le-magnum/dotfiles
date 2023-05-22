@@ -1,7 +1,7 @@
 eval "$(starship init zsh)"
 
 export STARSHIP_CONFIG=~/dotfiles/.config/starship/starship.toml
-
+$HOMEBREW_PREFIX=$(brew --prefix)
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$( echo $HOMEBREW_PREFIX '/Caskroom/miniconda/base/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
@@ -17,7 +17,7 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-source $(echo HOMEBREW_PREFIX)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $(echo $HOMEBREW_PREFIX)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 zstyle ':completion:*:*:git:*' script ~/dotfiles/.config/.zsh/git-completion.bash
 fpath=(~/dotfiles/config./.zsh $fpath)
