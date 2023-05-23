@@ -23,3 +23,6 @@ zstyle ':completion:*:*:git:*' script ~/dotfiles/.config/.zsh/git-completion.bas
 fpath=(~/dotfiles/config./.zsh $fpath)
 
 autoload -Uz compinit && compinit
+
+alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
+
