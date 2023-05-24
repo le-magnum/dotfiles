@@ -6,7 +6,8 @@ function ColorMyPencils(color)
     vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
     vim.g.tokyonight_transparent_sidebar = true
     vim.g.tokyonight_transparent = true
+    vim.api.nvim_set_hl(0, "linenr", {fg = "#9eb69e" })
 
-    end
+end
 
 ColorMyPencils()
