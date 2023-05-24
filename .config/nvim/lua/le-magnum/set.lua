@@ -11,3 +11,5 @@ vim.opt.incsearch = true
 vim.opt.smartindent = true
 
 vim.opt.wrap = false
+
+vim.api.nvim_set_hl(0, 'LineNr', { fg = white} )
