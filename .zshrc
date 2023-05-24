@@ -2,10 +2,10 @@ eval "$(starship init zsh)"
 
 export STARSHIP_CONFIG=~/.config/starship.toml
 HOMEBREW_PREFIX=$(brew --prefix)
-echo "before or after"
+
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$( echo $HOMEBREW_PREFIX'/Caskroom/miniconda/base/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+__conda_setup="$($(echo $HOMEBREW_PREFIX)'/Caskroom/miniconda/base/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
