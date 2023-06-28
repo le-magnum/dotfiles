@@ -29,3 +29,4 @@ alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 alias ls="ls --color=auto"
 alias lsl="ls -Alsh --color=auto"
 
+export PATH="/opt/homebrew/opt/dotnet@6/bin:$PATH"
