@@ -1,7 +1,6 @@
 eval "$(starship init zsh)"
 
 export STARSHIP_CONFIG=~/.config/starship.toml
-HOMEBREW_PREFIX=$(brew --prefix)
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -30,3 +29,5 @@ alias ls="ls --color=auto"
 alias lsl="ls -Alsh --color=auto"
 
 export PATH="/opt/homebrew/opt/dotnet@6/bin:$PATH"
+# Add .NET Core SDK tools
+export PATH="$PATH:/Users/workmac/.dotnet/tools"
