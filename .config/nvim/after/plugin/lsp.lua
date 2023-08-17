@@ -4,7 +4,8 @@ lsp.preset('recommended')
 lsp.ensure_installed({
     'lua_ls',
     'pylsp',
-    'omnisharp'
+    'omnisharp',
+    'bashls'
 
 })
 
