@@ -12,3 +12,6 @@ vim.opt.smartindent = true
 
 vim.opt.wrap = false
 
+vim.opt.spelllang = {'en_gb', 'da'}
+vim.opt.spell = true
+
