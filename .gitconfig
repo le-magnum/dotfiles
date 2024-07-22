@@ -4,3 +4,5 @@
 
 [alias]
     graph = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short -10
+    commit-b = -c user.name='Magnus M.' -c user.email='mkm@backstagecph.dk' commit 
+    commit-s = -c user.name='EXT Magnus Mortensen' -c user.email='extmkm@sct.dk' commit 

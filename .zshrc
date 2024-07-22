@@ -28,6 +28,6 @@ alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 alias ls="ls --color=auto"
 alias lsl="ls -Alsh --color=auto"
 
-export PATH="/opt/homebrew/opt/dotnet@6/bin:$PATH"
+export PATH="/opt/homebrew/opt/dotnet@6/libexec:$PATH"
 # Add .NET Core SDK tools
 export PATH="$PATH:/Users/workmac/.dotnet/tools"
