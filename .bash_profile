@@ -26,4 +26,4 @@ alias config='/usr/bin/git --git-dir='$(echo $HOME)'/dotfiles/ --work-tree='$(ec
  [[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"
 
 
- . "$HOME/.cargo/env"
+. "$HOME/.cargo/env"
